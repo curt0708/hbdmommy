@@ -5,19 +5,19 @@ const letterContent = document.querySelector("#letter-content");
 
 const photos = [
   {
-    src: "photos/photo1.JPG",
+    src: "photo1.JPG",
     caption: "누가 인형이고 사람이죠?"
   },
   {
-    src: "photos/photo2.JPG",
+    src: "photo2.JPG",
     caption: "아름다운 미소"
   },
   {
-    src: "photos/photo3.JPG",
+    src: "photo3.JPG",
     caption: "예쁜 커플이에요1"
   },
   {
-    src: "photos/photo4.JPG",
+    src: "photo4.JPG",
     caption: "예쁜 커플이에요2"
   },
   {
@@ -25,11 +25,11 @@ const photos = [
     caption: "절로 웃음이 나네요"
   },
   {
-    src: "photos/photo6.JPG",
+    src: "photo6.JPG",
     caption: "자식 농사 goat1"
   },
   {
-    src: "photos/photo7.JPG",
+    src: "photo7.JPG",
     caption: "자식 농사 goat22"
   }
 ];
