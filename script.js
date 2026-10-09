@@ -21,7 +21,7 @@ const photos = [
     caption: "예쁜 커플이에요2"
   },
   {
-    src: "photos/photo5.JPG",
+    src: "photo5.JPG",
     caption: "절로 웃음이 나네요"
   },
   {
