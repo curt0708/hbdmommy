@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>엄마에게 전하는 마음</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">HAPPY BIRTHDAY</p>
+    <h1>세상에서 가장 소중한<br>엄마에게</h1>
+    <p class="hero-copy">오늘은 엄마에게 평소에 다 전하지 못했던 마음을 전하고 싶어요.</p>
+    <button id="start-button" class="primary-button">우리의 추억과 편지 보기 ↓</button>
+    <div class="decor decor-one">♡</div>
+    <div class="decor decor-two">✦</div>
+  </header>
+
+  <main>
+    <section id="letter" class="section letter-section">
+      <p class="eyebrow">A LETTER FOR YOU</p>
+      <h2>엄마에게</h2>
+      <button id="letter-button" class="secondary-button" type="button">편지 열어보기 ✉</button>
+      <article id="letter-content" class="letter-card hidden">
+        <p>엄마, 생신 진심으로 축하해요.</p>
+        <p>평소에는 쑥스럽기도 하고 익숙하다는 이유로 고맙다는 말을 자주 못 했던 것 같아요. 늘 곁에서 아낌없는 응원과 사랑 감사해요.</p>
+        <p>앞으로는 엄마가 웃을 수 있는 순간이 더 많아지길 바라요.</p>
+        <p>오늘 하루 누구보다 행복하게 보내고, 앞으로도 건강하고 좋은 일만 가득했으면 좋겠어요.</p>
+        <p class="signoff">사랑하는 아들이 ♡</p>
+      </article>
+    </section>
+
+    <section class="section gallery-section">
+      <p class="eyebrow">OUR MEMORIES</p>
+      <h2>함께한 소중한 순간들</h2>
+      <p class="section-copy">사진 속 추억을 하나씩 넘겨 보세요.</p>
+      <div class="gallery-card">
+        <div class="photo-frame">
+          <img id="gallery-image" src="photos/photo1.JPG" alt="가족의 추억 사진">
+        </div>
+        <p id="photo-caption" class="photo-caption"></p>
+        <p id="photo-count" class="photo-count">1 / 7</p>
+        <div class="gallery-controls">
+          <button id="prev-button" class="round-button" type="button" aria-label="이전 사진">←</button>
+          <button id="next-button" class="round-button" type="button" aria-label="다음 사진">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section music-section">
+      <p class="eyebrow">A LITTLE MUSIC</p>
+      <h2>이 순간에 어울리는 음악</h2>
+      <p class="section-copy">아래 버튼을 누르면 음악이 재생돼요.</p>
+      <audio id="background-music" src="music.mp3" loop preload="metadata"></audio>
+      <button id="music-button" class="music-button" type="button" aria-label="음악 재생 또는 일시 정지">▶</button>
+      <p id="music-status" class="music-status">음악을 듣고 싶다면 재생 버튼을 눌러 주세요.</p>
+    </section>
+
+    <section class="final-message">
+      <p>엄마, 늘 고맙고 많이 사랑해요.</p>
+      <span>오늘도 내일도 행복하길 ♡</span>
+    </section>
+  </main>
+
+  <footer>엄마의 생일을 축하하며, 사랑을 담아 만들었어요.</footer>
+</body>
+</html>
